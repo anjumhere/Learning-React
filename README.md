@@ -1,218 +1,108 @@
-🚀 REACT LEARNING JOURNEY
-<div align="center"> <img src="https://raw.githubusercontent.com/Thomas-George-T/Thomas-George-T/master/assets/react.svg" alt="React Logo" width="150"/>
-From Zero to Hero - One Component at a Time
-https://img.shields.io/github/last-commit/YOUR_USERNAME/react-learning-journey?color=red&style=flat-square
-https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB
-https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black
+# 🚀 React Learning Journey
 
-<hr/>
-Projects • Learning Path • Tech Stack • Quick Start • Connect
+<p align="center">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+</p>
 
-<hr/> </div>
-📖 About
-Welcome to my React learning repository! Every folder here represents a mini-project that helped me understand React concepts better. From simple components to complex interactions, this is where I document my progress.
+<p align="center">
+  A collection of mini‑projects built while learning React.js – from fundamentals to real‑world components.
+</p>
 
-🎯 Current Progress
-Stage	Status	Projects Completed
-🟢 Beginner	In Progress	1/5
-🟡 Intermediate	Not Started	0/5
-🔴 Advanced	Not Started	0/5
-🗂️ Projects
-1. 🃏 Job Cards Component
-<div>
-Status: ✅ Completed
+<hr />
 
-Description: A responsive job listing cards component featuring FAANG/MAANG company job offers with save functionality and clean UI.
+## 📋 Table of Contents
+- [Projects](#-projects)
+- [Learning Path](#-learning-path)
+- [Tech Stack](#-tech-stack)
+- [Quick Start](#-quick-start)
+- [Repository Structure](#-repository-structure)
+- [Connect](#-connect)
+- [License](#-license)
 
-Concepts Covered:
+<hr />
 
-Functional Components
+## 🗂️ Projects
 
-Props & PropTypes
+### 1. Job Cards Component
+**Status:** ✅ Completed  
+**Description:** A responsive grid of job listing cards for FAANG/MAANG companies. Each card displays company logo, job title, posting time, job type, experience level, salary, location, and action buttons (Save / Apply).
 
-CSS Flexbox/Grid
+**Concepts Practiced:**
+- Functional components & props
+- Rendering lists with `.map()`
+- CSS Flexbox & Grid
+- Component reusability
+- Responsive design
 
-Array.map() for lists
+**Tech Used:** React, CSS3, Lucide Icons
 
-Component Reusability
+```bash
+📁 miniproject/
+├── src/
+│   ├── components/
+│   │   └── Card.jsx
+│   ├── data/
+│   │   └── jobOffers.js
+│   ├── styles/
+│   │   └── Card.css
+│   └── App.js
+└── package.json
+▶️ View Code • 🌐 Live Demo (coming soon)
 
-Features:
-
-12 company cards (Google, Apple, Microsoft, Amazon, Meta, Netflix, NVIDIA, Salesforce, X, Tesla, Uber, Airbnb)
-
-Company logos with circular frame
-
-Job posting time indicators
-
-Position titles with responsive height
-
-Job type and level badges
-
-Salary and location display
-
-Save/Bookmark button
-
-Apply Now CTA
-
-Responsive card grid
-
-Tech Used: React, CSS3, Lucide Icons
-
-text
-📁 Project Structure:
-├── Card.jsx          # Reusable card component
-├── jobOffers.js      # Data array with 12 jobs
-└── Card.css          # All styling
-View Code → | Live Demo →
-
-</div>
-2. 📝 To-Do App (Coming Soon)
-<div>
+2. To‑Do App (Coming Soon)
 Status: ⏳ Planned
+Concepts: useState, event handling, forms, local storage.
 
-Concepts: useState, Event Handling, Forms, Local Storage
-
-</div>
-3. 🌤️ Weather App (Coming Soon)
-<div>
+3. Weather App (Coming Soon)
 Status: ⏳ Planned
+Concepts: useEffect, API calls, async/await, error handling.
 
-Concepts: useEffect, API Calls, Async/Await, Error Handling
-
-</div>
+<hr />
 📚 Learning Path
-✅ Completed
-JSX Syntax
-
-Functional Components
-
-Props & Destructuring
-
-CSS Modules/Styling
-
-Lists & Keys with map()
-
-Component Composition
-
-🚧 In Progress
-useState Hook
-
-Event Handlers
-
-Conditional Rendering
-
-Forms & Inputs
-
-📅 Up Next
-useEffect Hook
-
-API Integration
-
-React Router
-
-Context API
-
-Custom Hooks
-
+Level	Status	Topics
+Beginner	✅ In progress	JSX, components, props, CSS styling, lists & keys, map()
+Intermediate	⏳ Not started	useState, useEffect, forms, conditional rendering, lifting state
+Advanced	⏳ Not started	Context API, custom hooks, React Router, performance optimization
+<hr />
 🛠️ Tech Stack
-<div>
-Core:
+Core: React (functional components), JavaScript ES6+, CSS3, HTML5
 
-React.js (Functional Components)
+Tools: Git, GitHub, npm / yarn, VS Code
 
-JavaScript ES6+
+Icons: Lucide React
 
-CSS3 (Flexbox, Grid)
-
-HTML5
-
-Tools:
-
-Git & GitHub
-
-npm/yarn
-
-VS Code
-
-Lucide Icons
-
-</div>
+<hr />
 🚀 Quick Start
+Clone the repository and run any project:
+
 bash
-# Clone the repository
 git clone https://github.com/YOUR_USERNAME/react-learning-journey.git
-
-# Navigate to a project
-cd react-learning-journey/miniproject
-
-# Install dependencies
+cd react-learning-journey/miniproject   # or any other project folder
 npm install
-
-# Start development server
 npm start
+Then open http://localhost:3000 to see the project.
 
-# View in browser
-http://localhost:3000
+<hr />
 📁 Repository Structure
 text
 react-learning-journey/
-│
-├── miniproject/               # Job Cards Project
-│   ├── src/
-│   │   ├── components/
-│   │   │   └── Card.jsx
-│   │   ├── data/
-│   │   │   └── jobOffers.js
-│   │   ├── styles/
-│   │   │   └── Card.css
-│   │   └── App.js
-│   └── package.json
-│
-├── project-2-todo/            # Coming soon
-├── project-3-weather/         # Coming soon
-└── README.md                   # You are here
-💡 Key Takeaways
-<div>
-Component Reusability
+├── miniproject/          # Job Cards project
+├── project-2-todo/       # (future)
+├── project-3-weather/    # (future)
+└── README.md
+<hr />
+📬 Connect
+GitHub: @YOUR_USERNAME
 
-"One Card component renders 12 different jobs just by changing props. This is the power of React!"
+LinkedIn: Your Name
 
-Data Separation
+Email: your.email@example.com
 
-"Keeping job data in a separate array makes it easy to add, remove, or update cards without touching the component."
+<hr />
+📄 License
+This project is open source and available under the MIT License.
 
-CSS Challenges
-
-"Fixing the layout when text wraps to two lines taught me about min-height and flexbox properties."
-
-map() is Essential
-
-"Understanding map() for rendering lists is crucial - forEach() doesn't return anything to render!"
-
-</div>
-📊 Stats
-Metric	Value
-Total Projects	1
-Total Components	1
-Total Cards	12
-Lines of Code	~500
-Hours Spent	~20
-🤝 Connect With Me
-<div>
-https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white
-https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white
-https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white
-https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white
-
-</div>
-📝 License
-MIT License - feel free to use this code for your own learning!
-
-<div align="center">
-⭐ Star this repo if you find it helpful!
-
-Last Updated: March 2026
-
-<hr/>
-🚧 More Projects Coming Soon! 🚧
-</div>
+<p align="center"> <sub>Last updated: March 2026</sub><br/> <sub>⭐ Star this repository if you find it useful!</sub> </p> ```
