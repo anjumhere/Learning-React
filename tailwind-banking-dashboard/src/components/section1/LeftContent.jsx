@@ -7,7 +7,7 @@ const LeftContent = () => {
       <div className="flex flex-col gap-10 px-10 pt-10">
         <h1 className="text-5xl font-bold">
           Prospective <br /> Customer <br />
-          <span></span> Segmentation
+          <span></span> <p className="text-blue-500">Segmentation</p>
         </h1>
         <p className="text-lg whitespace-wrap ">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ut,
